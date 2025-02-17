@@ -25,3 +25,22 @@ Asegúrate de tener las siguientes herramientas instaladas:
 
    ```bash
    git clone https://github.com/dianadance/karate-exercise2
+
+**2. Instala las dependencias usando Maven:**
+
+Si no tienes Maven instalado, puedes descargarlo desde aquí. Luego ejecuta:
+   
+```bash 
+  mvn install
+```
+**3. Ejecuta las pruebas:**
+
+Las pruebas están ubicadas en el directorio src\test\resources\com\exercise2\tests y puedes ejecutarlas de la siguiente manera:
+
+```bash 
+   mvn test
+```
+
+## Datos de prueba
+
+Para que el escenario de creación de usuario sea exitoso, se debe modificar el valor del username en el request. En la línea 5 del archivo ```login.feature``` se debe cambiar ```exerciseUser17``` por otro nombre de usuario.
