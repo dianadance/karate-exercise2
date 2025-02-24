@@ -40,7 +40,3 @@ Las pruebas están ubicadas en el directorio src\test\resources\com\exercise2\te
 ```bash 
    mvn test
 ```
-
-## Datos de prueba
-
-Para que el escenario de creación de usuario sea exitoso, se debe modificar el valor del username en el request. En la línea 5 del archivo ```login.feature``` se debe cambiar ```exerciseUser17``` por otro nombre de usuario.
